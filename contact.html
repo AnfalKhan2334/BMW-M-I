@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BMW</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./images/fav-bmw.png" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="./images/bmw-logo.png" class="img01" alt="BMW Logo">
+            <span>BMW</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Car Series</a>
+                <ul class="dropdown-menu">
+                    <li><a href="m2.html">BMW M2</a></li>
+                    <li><a href="m3.html">BMW M3</a></li>
+                    <li><a href="m4.html">BMW M4</a></li>
+                    <li><a href="m5.html">BMW M5</a></li>
+                    <li><a href="m8.html">BMW M8</a></li>
+                    <li><a href="i5.html">BMW i5</a></li>
+                    <li><a href="i7.html">BMW i7</a></li>
+                    <li><a href="i8.html">BMW i8</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section class="contact-hero">
+        <div>
+            <h1 style="font-size: 3rem; text-transform: uppercase; letter-spacing: 5px;">Contact Us</h1>
+        </div>
+    </section>
+
+    <div class="contact-container">
+        <form class="contact-form" id="contactForm">
+            <h2 style="margin-bottom: 30px; text-transform: uppercase; letter-spacing: 2px;">Send Message</h2>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Khan">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Khan@example.com">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Inquiry about BMW..">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>
+                <span class="icon">📍</span>
+                <span>HayatAbad Phase 5, Peshawar, Pakistan </span>
+            </p>
+            <p>
+                <span class="icon">📞</span>
+                <span>0303 5369885</span>
+            </p>
+            <!-- <p>
+                <span class="icon">✉️</span>
+                <span>info@bmw.com</span>
+            </p> -->
+            <!-- <p>
+                <span class="icon">🕐</span>
+                <span>Mon - Fri: 9:00 AM - 5:00 PM </span>
+            </p> -->
+            
+            <!-- <div style="margin-top: 40px;">
+                <h3 style="margin-bottom: 20px; font-size: 1.2rem;">Follow Us</h3>
+                <p style="display: flex; gap: 15px;">
+
+                    <a href="#" style="width: 40px; height: 40px; background: var(--bmw-gray); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.1);">FB</a>
+
+
+                    <a href="#" style="width: 40px; height: 40px; background: var(--bmw-gray); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.1);">IG</a>
+
+
+                    <a href="#" style="width: 40px; height: 40px; background: var(--bmw-gray); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.1);">YT</a>
+
+
+                    <a href="#" style="width: 40px; height: 40px; background: var(--bmw-gray); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.1);">TW</a>
+                </p>
+            </div> -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p> BMW. The Ultimate Driving Machine.</p>
+        <p> Developed by `M Anfal Khan`  </p>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
